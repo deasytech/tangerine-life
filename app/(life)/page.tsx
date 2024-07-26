@@ -56,7 +56,7 @@ const TangLifePage = () => {
               Retail Products
             </h2>
             <p className='regular-18 !leading-[32px] text-white'>Our retail plans offer tailored solutions for diverse needs, including Investment linked Products, Endowment and Protection Plans with customisable coverage</p>
-            <Link href="/retail-products" className="flex gap-2 items-center rounded-lg btn_white !text-green-base w-fit mt-10">
+            <Link href="/retail-plans" className="flex gap-2 items-center rounded-lg btn_white !text-green-base w-fit mt-10">
               <span>Explore plans</span>
               <ArrowRight size={18} className='text-green-base' />
             </Link>

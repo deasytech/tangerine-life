@@ -22,7 +22,7 @@ const Page = () => {
               Retail Plans
             </h1>
             <p className="text-lg font-gilroy-medium text-white">Our retail plans offer tailored solutions for diverse needs, including Investment linked Products, Endowment and Protection Plans with customisable coverage</p>
-            <Link href="/tangerine-health/get-quote">
+            <Link href="/buy-policy">
               <Button variant="green" size="lg" className="gap-2">Get a Policy <ArrowRight size={18} /></Button>
             </Link>
           </div>

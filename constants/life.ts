@@ -146,6 +146,24 @@ export const BENEFITS_OFFERED = [
   },
 ];
 
+export const CORPORATE_OFFERED = [
+  {
+    title: "Employee Loyalty",
+    icon: "/icons/life/green-employee-loyalty.svg",
+    text: "With Group Life Insurance, organisations can increase employee loyalty and retention rate. This helps a company maintain not only a stable workforce but increase in productivity.",
+  },
+  {
+    title: "Safety and Protection",
+    icon: "/icons/life/green-safety-protection.svg",
+    text: "It reduces the risk or burden of uncertainties in businesses and individual lives, having the right kind of insurance is a critical component of a good financial plan",
+  },
+  {
+    title: "Financial Security",
+    icon: "/icons/life/green-financial-security.svg",
+    text: "It provides financial security to the family of the employees who may pass away unexpectedly, the insurance can help cover funeral expenses",
+  },
+];
+
 export const PLANS = [
   {
     title: "Education Plan",
@@ -206,6 +224,19 @@ export const PLANS = [
     title: "Tang VIP Plan",
     link: "/retail-plans/tang-vip-plan",
     text: "The Tang VIP Plan is a deposit-based savings plan which pays out a chosen sum assured in addition to the accumulated fund value on death within the one year policy term.",
+  },
+];
+
+export const CORPORATE_PLANS = [
+  {
+    title: "Group Life Assurance",
+    link: "/group-life-assurance-scheme",
+    text: "Group Life schemes is a contract between an employer and an insurance company. The scheme is designed to provide cover for death, for employees that are in full time and active service of the employer. However, there are additional Rider Benefits available.",
+  },
+  {
+    title: "Credit Life Insurance",
+    link: "/credit-life-insurance",
+    text: "Provides cover for loans granted to Borrowers and Mortgages of a lending institution. -It repays the outstanding balance of a loan in the event that the debtor dies or becomes permanently disabled before the loan is fully repaid.",
   },
 ];
 
