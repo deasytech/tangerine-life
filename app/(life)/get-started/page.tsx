@@ -16,7 +16,7 @@ const GetStartedPage = () => {
       </div>
       <div className="flexCenter">
         <div className="w-full max-w-3xl flex gap-10 justify-center">
-          <Link href="/get-started/retail" className="text-center border p-4">
+          <Link href="/buy-policy" className="text-center border p-4">
             <div className="w-44 h-44">
               <Image src="/icons/life/retail.svg" alt="retail plan" width={176} height={176} className="" />
             </div>

@@ -106,6 +106,26 @@ body {
     @apply text-[16px] font-[400] leading-[145%] font-gilroy-medium;
   }
 
+  .regular-16 p {
+    @apply mb-3 leading-8;
+  }
+
+  .regular-16 strong {
+    @apply font-gilroy-bold;
+  }
+
+  .regular-16 ul {
+    @apply list-disc ml-3 space-y-2;
+  }
+
+  .regular-16 ol {
+    @apply space-y-2;
+  }
+
+  .regular-16 h3 {
+    @apply text-2xl font-gilroy-bold;
+  }
+
   .regular-14 {
     @apply text-[14px] font-[400];
   }
