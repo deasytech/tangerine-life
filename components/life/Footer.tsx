@@ -13,6 +13,8 @@ const Footer = () => {
     "/get-quote",
     "/buy-policy",
     "/get-started",
+    "/get-started/retail",
+    "/get-started/corporate",
   ];
 
   if (hiddenPaths.includes(pathname)) {
