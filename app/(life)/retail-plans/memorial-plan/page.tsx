@@ -12,7 +12,7 @@ const Page = () => {
       <section className="relative max-container padding-container flex flex-col gap-12 md:flex-row items-start w-full mt-44">
         <div className="w-full space-y-3 flex-[2]">
           <BackWithBreadCrumbs page="Memorial Plan" textTheme="text-green-500" />
-          <h1 className="bold-56 text-green-900">Memorial Plan</h1>
+          <h1 className="bold-32 md:bold-56 text-green-900">Memorial Plan</h1>
           {/* <p className="regular-18 text-generic-950 !leading-[145%]">Group Life Insurance provides protection to a group of persons or employees for life changing events.It is typically provided by an employer to their employees</p>
           <Link href="/get-quote">
             <Button variant="green" size="lg" className="mt-4">Get a Quote</Button>

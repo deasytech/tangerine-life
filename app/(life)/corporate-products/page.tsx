@@ -32,7 +32,7 @@ const Page = () => {
       <section className="relative max-container padding-container mt-32">
         <div className="w-full md:w-1/2 space-y-4">
           <h5 className="regular-14 text-orange-base uppercase">our insurance benefits</h5>
-          <h3 className="bold-48 text-green-base">Benefits</h3>
+          <h3 className="bold-32 md:bold-48 text-green-base">Benefits</h3>
           <p className="regular-16 text-generic-700 max-w-sm">For our corporate plans, our life insurance offerings provide crucial financial security and peace of mind tailored to the needs of businesses and their employees.</p>
         </div>
 
@@ -52,7 +52,7 @@ const Page = () => {
       <section className="relative max-container padding-container mt-32">
         <div className="w-full md:w-1/2 space-y-4">
           <h5 className="regular-14 text-orange-base uppercase">plans</h5>
-          <h3 className="bold-48 text-green-base">Our Products</h3>
+          <h3 className="bold-32 md:bold-48 text-green-base">Our Products</h3>
           <p className="regular-16 text-gray-600 max-w-sm">You can enjoy even better protection with our optional services, tailored to your needs.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-16">
@@ -75,7 +75,7 @@ const Page = () => {
 
       <section className="relative max-container padding-container flex flex-col md:flex-row gap-6 mt-32">
         <div className="w-full md:w-1/3 space-y-4">
-          <h3 className="bold-48 text-green-base">Frequently Asked Questions</h3>
+          <h3 className="bold-32 md:bold-48 text-green-base">Frequently Asked Questions</h3>
           <p className="text-lg font-gilroy-semibold text-green-base pb-3">We have provided answers to some of the questions you might have in mind.</p>
           <Link href="/frequently-asked-questions">
             <Button variant="darkgreen" size="lg" className='gap-2'>Read more <ArrowRight size={16} /></Button>

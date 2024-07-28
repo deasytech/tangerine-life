@@ -12,7 +12,7 @@ const Page = () => {
       <section className="relative max-container padding-container flex flex-col gap-12 md:flex-row items-start w-full mt-44">
         <div className="w-full space-y-3 flex-[2]">
           <BackWithBreadCrumbs page="Credit Life Insurance" textTheme="text-green-500" />
-          <h1 className="bold-56 text-green-900">Credit Life Insurance</h1>
+          <h1 className="bold-32 md:bold-56 text-green-900">Credit Life Insurance</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">Provides cover for loans granted to Borrowers/mortgagors of a lending institution. It repays the outstanding balance of a loan in the event that the debtor dies or becomes permanently disabled before the loan is fully repaid.</p>
           <Link href="/get-quote">
             <Button variant="green" size="lg" className="mt-4">Get a Quote</Button>

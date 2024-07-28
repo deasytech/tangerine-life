@@ -7,7 +7,7 @@ const CSRPage = () => {
     <>
       <section className="relative max-container padding-container flex flex-col gap-12 md:flex-row items-center w-full mt-44">
         <div className="w-full space-y-3 md:w-1/2">
-          <h1 className="bold-56 text-green-900">Corporate Social Responsibility</h1>
+          <h1 className="bold-32 md:bold-56 text-green-900">Corporate Social Responsibility</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">We are committed to making a positive impact on the Health and well-being of our community. As a responsible HMO, we understand the importance of Corporate Social Responsibility (CSR) in contributing to a healthier and happier society. Our CSR initiatives are designed to address critical health-related issues, promote wellness, and create a lasting positive impact on the communities we serve.</p>
         </div>
         <div className="w-full md:w-1/2">

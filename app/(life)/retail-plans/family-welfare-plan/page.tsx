@@ -13,7 +13,7 @@ const Page = () => {
       <section className="relative max-container padding-container flex flex-col gap-12 md:flex-row items-start w-full mt-36">
         <div className="w-full space-y-3 flex-[2]">
           <BackWithBreadCrumbs page="Family Welfare Plan" textTheme="text-green-500" />
-          <h1 className="bold-56 text-green-900">Family Welfare Plan</h1>
+          <h1 className="bold-32 md:bold-56 text-green-900">Family Welfare Plan</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">An annual renewable term assurance that pays out the sum assured in the event of the policyholders' death.</p>
           <Link href="/buy-policy">
             <Button variant="green" size="lg" className="mt-4">Buy a Policy</Button>
@@ -79,7 +79,7 @@ const Page = () => {
       </section>
 
       <section className="relative max-container padding-container mt-32">
-        <h3 className="text-5xl font-semibold text-green-base mb-10">Other plans</h3>
+        <h3 className="text-3xl md:text-5xl font-semibold text-green-base mb-10">Other plans</h3>
         <div className="flex flex-col md:flex-row gap-8">
           <div className="w-full px-8 py-6 bg-white rounded-xl flex flex-col justify-between border">
             <div className="flex-col justify-start items-start gap-2 flex my-8">

@@ -13,7 +13,7 @@ const Page = () => {
       <section className="relative max-container padding-container flex flex-col gap-12 md:flex-row items-start w-full mt-44">
         <div className="w-full space-y-3 flex-[2]">
           <BackWithBreadCrumbs page="Tang Flex Plan" textTheme="text-green-500" />
-          <h1 className="bold-56 text-green-900">Tang Flex Plan</h1>
+          <h1 className="bold-32 md:bold-56 text-green-900">Tang Flex Plan</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">The Tang Flex Life Plan is an anticipated endowment plan that pays out benefits after the first 2 years and at the end of the policy term (3 years) in the ratio of 20%, and 100% of the sum assured. The final benefit is payable at the end of the term.</p>
           <Link href="/get-quote">
             <Button variant="green" size="lg" className="mt-4">Get a Quote</Button>
@@ -53,7 +53,7 @@ const Page = () => {
       </section>
 
       <section className="relative max-container padding-container mt-32">
-        <h3 className="text-5xl font-semibold text-green-base mb-10">Other plans</h3>
+        <h3 className="text-3xl md:text-5xl font-semibold text-green-base mb-10">Other plans</h3>
         <div className="flex flex-col md:flex-row gap-8">
           <div className="w-full px-8 py-6 bg-white rounded-xl flex flex-col justify-between border">
             <div className="flex-col justify-start items-start gap-2 flex my-8">

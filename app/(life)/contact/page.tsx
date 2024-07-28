@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <section className="relative max-container padding-container">
       <div className='max-container pt-40 pb-16'>
-        <h1 className='bold-56 text-green-base mb-2'>Contact us</h1>
+        <h1 className='bold-32 md:bold-56 text-green-base mb-2'>Contact us</h1>
         <p className='regular-18 text-generic-700'>Get in touch with any of our business touch points.</p>
       </div>
 

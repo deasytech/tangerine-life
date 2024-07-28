@@ -25,7 +25,7 @@ const TangLifePage = () => {
 
       <section className="max-container padding-container text-center mt-20">
         <div className="h-full flex flex-col justify-start items-center w-full gap-6">
-          <h2 className="bold-48 text-green-base w-full md:w-1/2">Superior protection for your people and product</h2>
+          <h2 className="bold-32 md:bold-48 text-green-base w-full md:w-1/2">Superior protection for your people and product</h2>
           <p className="regular-18 text-generic-700 w-full md:w-1/2">Life is unpredictable. Plans change unexpectedly. That's why our life insurance products are designed to provide dependable protection for you and your loved ones, no matter what life throws your way.</p>
         </div>
       </section>
@@ -33,7 +33,7 @@ const TangLifePage = () => {
       <section className="relative max-container padding-container mt-20">
         <div className="mb-14 flex flex-col gap-4 px-10">
           <p className="regular-14 !font-gilroy-semibold text-orange-base uppercase py-2 px-4 bg-orange-50 w-fit rounded-xl">our plans</p>
-          <h2 className="bold-48 text-green-base max-w-md">
+          <h2 className="bold-32 md:bold-48 text-green-base max-w-md">
             Choose a cover that's right for you.
           </h2>
           <p className="regular-18 !leading-[26px] max-w-md text-generic-500">With a variety of plans to choose from, get one that meets your present and future needs.</p>
@@ -41,7 +41,7 @@ const TangLifePage = () => {
         <div className="flex flex-col md:flex-row gap-8">
           <div className="bg-green-950 w-full p-12 flex flex-col gap-4 rounded-2xl">
             <p className='regular-14 uppercase text-white font-gilroy-semibold'>plans</p>
-            <h2 className="bold-48 text-white">
+            <h2 className="bold-32 md:bold-48 text-white">
               Corporate Products
             </h2>
             <p className='regular-18 !leading-[32px] text-white'>A tailored solution for your company's insurance needs. With our comprehensive coverage and flexible options, we provide peace of mind for both employers and employees. Secure your team's future with Tangerine Life Corporate Plan today.</p>
@@ -52,7 +52,7 @@ const TangLifePage = () => {
           </div>
           <div className="bg-green-base w-full p-12 flex flex-col gap-4 rounded-2xl">
             <p className='regular-14 uppercase text-white font-gilroy-semibold'>plans</p>
-            <h2 className="bold-48 text-white">
+            <h2 className="bold-32 md:bold-48 text-white">
               Retail Products
             </h2>
             <p className='regular-18 !leading-[32px] text-white'>Our retail plans offer tailored solutions for diverse needs, including Investment linked Products, Endowment and Protection Plans with customisable coverage</p>
@@ -69,7 +69,7 @@ const TangLifePage = () => {
       <MoreLinks />
 
       <section className="relative max-container padding-container mt-24">
-        <h3 className="bold-56 text-green-base w-full md:w-1/2 mb-10">Why choose Tangerine Life Insurance?</h3>
+        <h3 className="bold-32 md:bold-56 text-green-base w-full md:w-1/2 mb-10">Why choose Tangerine Life Insurance?</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {LIFE_INSURANCE.map((item) =>
             <LifeInsuranceCard
