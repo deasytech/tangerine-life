@@ -11,6 +11,7 @@ const Footer = () => {
 
   const hiddenPaths = [
     "/get-quote",
+    "/make-claim",
     "/buy-policy",
     "/get-started",
     "/get-started/corporate",

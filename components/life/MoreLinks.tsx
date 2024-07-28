@@ -8,7 +8,7 @@ const MoreLinks = () => {
         <Link href="/contact" className="w-full">
           <Button variant="green" size="lg" className="w-full">SELF SERVICE</Button>
         </Link>
-        <Link href="/" className="w-full">
+        <Link href="/make-claim" className="w-full">
           <Button variant="green" size="lg" className="w-full">MAKE A CLAIM</Button>
         </Link>
         <Link href="/" className="w-full">

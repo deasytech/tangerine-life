@@ -13,6 +13,7 @@ const Navbar = () => {
 
   const hiddenPaths = [
     "/get-quote",
+    "/make-claim",
     "/buy-policy",
     "/get-started",
     "/get-started/corporate",
