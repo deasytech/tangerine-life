@@ -5,17 +5,17 @@ const MoreLinks = () => {
   return (
     <section className="relative bg-green-50 mt-20">
       <div className="max-container padding-container py-10 flex flex-col md:flex-row gap-4 items-center justify-between">
-        <Link href="/contact" className="w-full">
-          <Button variant="green" size="lg" className="w-full">SELF SERVICE</Button>
+        <Link href="/contact" className="w-full text-green-base hover:bg-green-base hover:text-white rounded-md">
+          <div className="w-full py-2 text-center font-bold text-xl">SELF SERVICE</div>
         </Link>
-        <Link href="/make-claim" className="w-full">
-          <Button variant="green" size="lg" className="w-full">MAKE A CLAIM</Button>
+        <Link href="/make-claim" className="w-full text-green-base hover:bg-green-base hover:text-white rounded-md">
+          <div className="w-full py-2 text-center font-bold text-xl">MAKE A CLAIM</div>
         </Link>
-        <Link href="/" className="w-full">
-          <Button variant="green" size="lg" className="w-full">RENEW MY POLICY</Button>
+        <Link href="/" className="w-full text-green-base hover:bg-green-base hover:text-white rounded-md">
+          <div className="w-full py-2 text-center font-bold text-xl">RENEW MY POLICY</div>
         </Link>
-        <Link href="/get-started" className="w-full">
-          <Button variant="green" size="lg" className="w-full">GET A QUOTE</Button>
+        <Link href="/get-started" className="w-full text-green-base hover:bg-green-base hover:text-white rounded-md">
+          <div className="w-full py-2 text-center font-bold text-xl">GET A QUOTE</div>
         </Link>
       </div>
     </section>

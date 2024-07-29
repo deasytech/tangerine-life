@@ -22,7 +22,7 @@ const FormSchema = z.object({
   accountNumber: z.string().min(1),
   bankName: z.string().min(1),
   accountType: z.string().min(1),
-  bvn: z.string().min(11).max(11),
+  bvn: z.string({ message: "BVN number must be 11 characters" }).min(11).max(11),
 });
 
 type MakeClaimBankFormProps = {

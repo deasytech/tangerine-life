@@ -15,8 +15,8 @@ const Page = () => {
           <BackWithBreadCrumbs page="Tang Flex Plan" textTheme="text-green-500" />
           <h1 className="bold-32 md:bold-56 text-green-900">Tang Flex Plan</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">The Tang Flex Life Plan is an anticipated endowment plan that pays out benefits after the first 2 years and at the end of the policy term (3 years) in the ratio of 20%, and 100% of the sum assured. The final benefit is payable at the end of the term.</p>
-          <Link href="/get-quote">
-            <Button variant="green" size="lg" className="mt-4">Get a Quote</Button>
+          <Link href="/buy-policy">
+            <Button variant="green" size="lg" className="mt-4">Buy a Policy</Button>
           </Link>
         </div>
         <div className="w-full flex-[3]">

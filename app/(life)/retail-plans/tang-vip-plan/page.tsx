@@ -15,8 +15,8 @@ const Page = () => {
           <BackWithBreadCrumbs page="Tang VIP Plan" textTheme="text-green-500" />
           <h1 className="bold-32 md:bold-56 text-green-900">Tang VIP Plan</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">The Tang VIP Plan is a deposit-based savings plan which pays out a chosen sum assured in addition to the accumulated fund value on death within the one-year policy term.</p>
-          <Link href="/get-quote">
-            <Button variant="green" size="lg" className="mt-4">Get a Quote</Button>
+          <Link href="/buy-policy">
+            <Button variant="green" size="lg" className="mt-4">Buy a Policy</Button>
           </Link>
         </div>
         <div className="w-full flex-[3]">

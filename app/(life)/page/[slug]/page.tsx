@@ -8,7 +8,7 @@ const FooterPages = ({ params }: ParamsProps) => {
     <section className="relative max-container padding-container mt-24">
       <div className="h-full flex flex-col justify-center items-start gap-4">
         <div className='lg:mt-5'>
-          <p className='regular-18 text-generic-500 uppercase'>Updated on: {page?.date}</p>
+          <p className='regular-14 text-generic-500 uppercase'>Updated on: {page?.date}</p>
         </div>
         <h1 className="bold-32 text-green-base max-w-3xl lg:bold-56 items-center">
           {page?.title}

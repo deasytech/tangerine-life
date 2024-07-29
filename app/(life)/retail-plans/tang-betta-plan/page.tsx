@@ -16,8 +16,8 @@ const Page = () => {
           <h1 className="bold-32 md:bold-56 text-green-900">Tang Betta Plan</h1>
           <p className="regular-18 text-generic-950 !leading-[145%]">The Tang Betta Life plan is a pure risk-based plan which pays out a
             percentage of the premium paid by policyholder during the policy period in the event that the insured events do not crystallize. Otherwise, the sum assured is payable to the policyholder.</p>
-          <Link href="/get-quote">
-            <Button variant="green" size="lg" className="mt-4">Get a Quote</Button>
+          <Link href="/buy-policy">
+            <Button variant="green" size="lg" className="mt-4">Buy a Policy</Button>
           </Link>
         </div>
         <div className="w-full flex-[3]">

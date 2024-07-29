@@ -37,7 +37,7 @@ const FormSchema = z.object({
   policyNumber: z.string().min(1),
   typeOfPolicy: z.string().min(1),
   nameAssured: z.string().min(1),
-  phoneAssured: z.string().min(11).max(11),
+  phoneAssured: z.string({ message: "Phone number must be at least 11 characters" }).min(11).max(11),
   address: z.string().min(1),
   identification: z.string().min(1),
   paymentType: z.array(z.string()).refine((value) => value.some((item) => item), {

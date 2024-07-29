@@ -32,7 +32,7 @@ const productList = [
 const FormSchema = z.object({
   fullName: z.string().min(1),
   email: z.string().email().min(1),
-  telephone: z.string().min(11).max(11),
+  telephone: z.string({ message: "Phone number must be at least 11 characters" }).min(11).max(11),
   product: z.array(z.string()).refine((value) => value.some((item) => item), {
     message: "You have to select at least one item.",
   }),

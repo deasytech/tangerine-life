@@ -122,8 +122,12 @@ body {
     @apply space-y-2;
   }
 
+  .regular-16 h2 {
+    @apply text-[28px] font-gilroy-semibold mb-6;
+  }
+
   .regular-16 h3 {
-    @apply text-2xl font-gilroy-bold;
+    @apply text-2xl font-gilroy-medium mb-3;
   }
 
   .regular-14 {

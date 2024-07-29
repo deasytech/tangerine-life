@@ -36,13 +36,19 @@ const Page = () => {
         <h3 className="bg-green-base text-white p-3 text-2xl text-center font-gilroy-semibold mb-4">Benefits</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
           <div className="rounded-2xl space-y-4">
-            <p className="text-base text-generic-950 font-gilroy-regular">It gives comfort to Borrowers/Mortgagor of a Lending Institution. In the event of death, the defendant's of the deceased will still keep the property and will not suffer the loss of a financed asset</p>
+            <ul className="list-disc ml-3">
+              <li className="text-base text-generic-950 font-gilroy-regular">It gives comfort to Borrowers/Mortgagor of a Lending Institution. In the event of death, the defendant's of the deceased will still keep the property and will not suffer the loss of a financed asset</li>
+            </ul>
           </div>
           <div className="rounded-2xl space-y-4">
-            <p className="text-base text-generic-950 font-gilroy-regular">It is a Win-Win situation for the Lending Institution and the Customer</p>
+            <ul className="list-disc ml-3">
+              <li className="text-base text-generic-950 font-gilroy-regular">It is a Win-Win situation for the Lending Institution and the Customer</li>
+            </ul>
           </div>
           <div className="rounded-2xl space-y-4">
-            <p className="text-base text-generic-950 font-gilroy-regular">It is very easy to administer. It is usually bundled with the loan amount from inception and the cost will be borne by the customer on a monthly, annual or single premium basis</p>
+            <ul className="list-disc ml-3">
+              <li className="text-base text-generic-950 font-gilroy-regular">It is very easy to administer. It is usually bundled with the loan amount from inception and the cost will be borne by the customer on a monthly, annual or single premium basis</li>
+            </ul>
           </div>
         </div>
       </section>
