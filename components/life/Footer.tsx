@@ -30,10 +30,18 @@ const Footer = () => {
               <Image src="/images/life/logo.svg" alt="twitter logo" width={127} height={40} />
               <p className="regular-14 !font-gilroy-medium max-w-xs text-green-900">Empowering people to live financially secure.</p>
               <div className='flex gap-4'>
-                <Image src="/icons/life/linkedin.svg" alt="linkedin logo" width={16} height={16} />
-                <Image src="/icons/life/facebook.svg" alt="facebook logo" width={16} height={16} />
-                <Image src="/icons/life/instagram.svg" alt="instagram logo" width={16} height={16} />
-                <Image src="/icons/life/twitter.svg" alt="twitter logo" width={16} height={16} />
+                <Link href="https://www.linkedin.com/company/tangerine-africa/posts/?feedView=all" target="_bank">
+                  <Image src="/icons/life/linkedin.svg" alt="linkedin logo" width={16} height={16} />
+                </Link>
+                <Link href="https://web.facebook.com/TangerineAfrica/?_rdc=1&_rdr" target="_blank">
+                  <Image src="/icons/life/facebook.svg" alt="facebook logo" width={16} height={16} />
+                </Link>
+                <Link href="https://www.instagram.com/tangerineafrica?igsh=MWZ3amhybjJ3bXluZw==" target="_blank">
+                  <Image src="/icons/life/instagram.svg" alt="instagram logo" width={16} height={16} />
+                </Link>
+                <Link href="https://x.com/tangerinafrica?s=21&t=tmfoilz0vsLV41wXFMExcQ" target="_blank">
+                  <Image src="/icons/life/x-twitter.svg" alt="twitter logo" width={16} height={16} />
+                </Link>
               </div>
               <p className="regular-24 text-green-950 mt-4">Still Have Questions?</p>
               <div className="grid grid-cols-1 gap-4 md:grid-cols-2 text-base text-green-950 font-gilroy-light">
