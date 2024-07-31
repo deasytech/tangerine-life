@@ -703,22 +703,22 @@ export const DIRECTORS = [
     position: "Executive Director",
   },
   {
-    image: "/images/team/no-image.png",
+    image: "/images/team/ogiemudia.png",
     name: "Osahon Ogiemudia",
     position: "Non-Executive Director",
   },
   {
-    image: "/images/team/no-image.png",
+    image: "/images/team/afolabi.png",
     name: "Olajide Moshood Afolabi",
     position: "Independent Non-Executive Director",
   },
   {
-    image: "/images/team/no-image.png",
+    image: "/images/team/olusoga.png",
     name: "Oluseye Olusoga",
     position: "Non-Executive Director",
   },
   {
-    image: "/images/team/no-image.png",
+    image: "/images/team/kazeem.png",
     name: "Yeside Kazeem",
     position: "Non-Executive Director",
   },
