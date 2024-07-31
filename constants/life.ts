@@ -196,11 +196,6 @@ export const PLANS = [
     text: "Credit Life Assurance provides cover for loans granted to Borrowers and Mortgages of a lending institution. It repays the outstanding balance of a loan in the event that the debtor dies or becomes permanently disabled before the loan is fully repaid.",
   },
   {
-    title: "Memorial Plan",
-    link: "/retail-plans/memorial-plan",
-    text: "Available as Single Cover or Family Cover, with entry ages from 18 to 55. Choose from flexible sum assured options and enjoy optional benefits like sum escalation.",
-  },
-  {
     title: "Savings Plan",
     link: "/retail-plans/savings-plan",
     text: "This is a safety net for your future, ages 18-55! Tailor your coverage with flexible plans (5-20 years). Access funds when needed, with built-in critical illness, disability & funeral benefits and convenient payments. Secure your tomorrow, today!",
@@ -693,7 +688,7 @@ export const FAQ = [
 
 export const DIRECTORS = [
   {
-    image: "/images/team/no-image.png",
+    image: "/images/team/oshinusi.png",
     name: "Dapo Oshinusi",
     position: "Chairman",
   },
@@ -726,11 +721,6 @@ export const DIRECTORS = [
     image: "/images/team/no-image.png",
     name: "Yeside Kazeem",
     position: "Non-Executive Director",
-  },
-  {
-    image: "/images/team/no-image.png",
-    name: "Percy Grundy",
-    position: "Independent Non-Executive Director",
   },
 ];
 
@@ -988,40 +978,47 @@ We take appropriate measures to ensure that your Personal Data is only processed
 <li>A miscarriage of justice</li>
 <li>Damage to the environment</li>
 </ul>
-<br>6.2 Conduct becomes reportable when it happens or when it is reasonably likely to occur.
-<br>6.3 The Company may be endangered if any of these conducts is left unchecked. Importantly, in determining whether to disclose a reportable incident, harm done to the Company is not solely measured in terms of financial loss or damage to a particular business, but harm is equally measured with regards to any damage done to the Company's integrity and reputation.
-<br><h3>7. Confidentiality</h3><br>7.1 All information obtained from a Whistle blowing Report shall be considered confidential and would not be disclosed or discussed with other persons, except for the purpose of the investigation or where the Company has a legal or regulatory obligation to disclose.
-<br>7.2 Any individual, who reports, provides or obtains information as part of the investigation of a reported misconduct must not disclose or discuss the information or the investigation with other persons, internal or external.
-<br>7.3 Any breach of this Confidentiality would be treated in accordance with the Disciplinary Process as stipulated within the Tangerine Group Staff Manual.
-<br><h3>8.Reporting</h3><br>An individual who observes, or becomes aware of a reportable misconduct, as defined within the Policy, has an obligation to report that conduct. Reports must be made in accordance with the requirements stipulated below.
-<br>8.1 Whistle blowing Channels<br><br>The channels and procedures for whistle blowing or raising complaints shall depend on whether the allegation, complaint or information is being made or disclosed by a staff member or by a party external to the Company.
-<br>Staff Members
-<br>Staff members are expected to whistle blow on transactions, operations and any other activities of the Company that involve fraud, corruption and misconduct, whether internal or external via the dedicated email address whistleblow@tangerine.africa
-<br>External Parties
-<br>Parties external to the Company, however, are required to bring allegations and complaints of corruption, fraud and any other misconduct in the execution of any business of the Company or project(s) related to the Company to the knowledge of the Company via the Whistle blowing link on the Company's website or send an email to whistleblow@tangerine.africa
-<br>All communications made via the dedicated email address and the whistle blowing portal will be received by the Head of Internal Audit, Chief Compliance Officer and Managing Director/CEO.
-<br>8.2 Minimum Information Required for a Whistle blowing Report<br><br>1. Name of officer(s) involved<br>2. Nature of misconduct<br>3. Date of occurrence<br>4. Estimated value of loss to the Company (if any)<br>5. Specific evidence of occurrence of the misconduct
-<br><h3>9. Confidential &amp; Anonymous Whistle blowing</h3><br>The Company wishes to assure the safety of whistle blowing, and therefore provides whistle blowers with the option of either confidential whistle blowing or anonymous whistle blowing.
-<br>9.1 Confidential Whistle blowing<br><br>A whistle blower is encouraged to reveal his or her identity when a report or disclosure is made using any of the channels mentioned above. This approach helps the investigation significantly, as the Whistle blower can be contacted to provide further details on the report, where necessary.
-<br>9.2 Anonymous Whistle blowing<br><br>However, a whistle blower may choose not to reveal his or her identity upon making a report. With the reporter's anonymity thus assured, the identity of the reporter cannot be ascertained by anyone. Should this approach be chosen, the Whistle blower must ensure that enough information is provided to enable a thorough investigation.
-<br>Whistle blowers should endeavour not to discuss the details of the reported misconduct with other persons, except as part of the investigation to ensure the protection of all parties involved and not to jeopardise the investigation process.</span></p><p><span style="white-space-collapse: preserve;"><br><h3>10. Whistle blower Protection</h3><br>10.1 An employee making a Whistle blowing Report in good faith may do so without fear of retaliation or occupational prejudice. However, this protection is forfeited if it is found that the report was deliberately falsified or made with malicious intent.
-<br>10.2 Retaliation and occupational prejudice are in themselves misconducts, and when established, must be immediately escalated to the Audit and Compliance Units and would be handled through appropriate disciplinary proceedings as stipulated in the Tangerine Group Staff Manual.
-<br><h3>11. False Allegations &amp; Complicity</h3><br>11.1 Falsified and malicious allegations made through the Whistle blowing System would be considered misconduct and, when established, would result in disciplinary actions taken against the employee as stipulated within the Tangerine Group Staff Manual.
-<br>11.2 Reporting under this policy does not immunize or shield a whistle blower against action following from his or her intentional misconduct, which includes wilfully participating in the reported misconduct.
-<br><h3>12. Investigation and Follow-up</h3><br>12.1 The Company is committed to investigating and addressing all cases of reported misconduct. Instances of suspected fraud and corrupt activities shall be investigated in accordance with the Tangerine Group Staff Manual.
-<br>12.2 All other instances of misconduct shall be assessed by the Internal Audit unit and referred to the appropriate Unit for investigation and necessary action. The Internal Audit unit shall follow-up to ensure that the report is properly investigated and adequately addressed.
-<br>12.3 All persons involved in the investigation of a reported suspicion in accordance with this policy will have access to all records, data, and information pertaining to the investigation.
-<br>12.4 Failure of any employee to assist in an investigation; or an intentional obstruction of the progress of an investigation by an employee would be considered a breach of contract and may result in disciplinary actions taken against the employee.
-<br>12.5 Interaction with law enforcement agencies would occur as it is deemed necessary and in accordance with the Tangerine Group Anti-Fraud Policy. As appropriate, relevant regulators will be informed of allegations and the subsequent outcome of investigations.
-<br>12.6 The whistle blower may seek follow-up information about the investigation of a report, escalated using the confidential whistle blowing option, or any consequent action taken by Tangerine Group.
-<br><h3>13. How to Raise Concerns</h3><br>13.1 As a first step, business-as-usual activities could be taken up with line managers or superiors. This however depends on the seriousness and sensitivity of the issues involved and who is thought to be involved in the malpractice. For example, if it is believed that Management is involved, the Internal Audit Team or Human Resources should be approached.
-<br>13.2 Concerns are better raised in writing but if the whistle blower does not feel comfortable to put his or her concern in writing, the Internal Auditor or any other designated officer as may be applicable may at his/her discretion decide to receive a complaint made by telephone or in person at a meeting. Written concerns should set out the background and history of the concern, giving names, dates and places (if known). In order to ensure the confidentiality of any expression of concern it is suggested that Whistle Blowers send their letter/written note in a sealed envelope addressed to the Internal Auditor and clearly marked as "Strictly Private and Confidential - To be opened by addressee only."
-<br><h3>14. Escalation</h3><br>Reported misconducts involving an employee shall be escalated to the Head, Internal Audit and the employee's Line Manager
-<br>Reported misconducts involving a Departmental Head shall be escalated to the Head, Internal Audit and the MD/CEO.
-<br>Reported misconducts involving a member of Senior Management, with the exception of the Chief Compliance Officer, the Head Internal Audit or the MD/CEO, shall be escalated to the Head Internal Audit or the MD/CEO,
-<br>Reported misconducts involving the Chief Compliance Officer, the Head Internal Audit or the MD/CEO shall be escalated to the Chairperson, Board Audit and Compliance Committee.
-<br><h3>15. Assurance</h3><br>The Internal Audit Unit has the responsibility of auditing the processes related to the reporting and investigation of all misconducts reported in accordance with the Whistle blowing Policy.
-<br><h3>16. Monitoring and Reporting</h3><br>16.1 The Internal Audit Unit shall be responsible for monitoring and reviewing whistle blowing activities.
-<br>16.2 Reports on whistle blowing information shall be provided to Senior Management on a monthly basis and to the Board Audit and Compliance Committee on a quarterly basis.</span></p>`,
+<p>6.2 Conduct becomes reportable when it happens or when it is reasonably likely to occur.</p>
+<p>6.3 The Company may be endangered if any of these conducts is left unchecked. Importantly, in determining whether to disclose a reportable incident, harm done to the Company is not solely measured in terms of financial loss or damage to a particular business, but harm is equally measured with regards to any damage done to the Company's integrity and reputation.</p>
+<h3>7. Confidentiality</h3>
+<p>7.1 All information obtained from a Whistle blowing Report shall be considered confidential and would not be disclosed or discussed with other persons, except for the purpose of the investigation or where the Company has a legal or regulatory obligation to disclose.</p>
+<p>7.2 Any individual, who reports, provides or obtains information as part of the investigation of a reported misconduct must not disclose or discuss the information or the investigation with other persons, internal or external.</p>
+<p>7.3 Any breach of this Confidentiality would be treated in accordance with the Disciplinary Process as stipulated within the Tangerine Group Staff Manual.</p>
+<h3>8.Reporting</h3>
+<p>An individual who observes, or becomes aware of a reportable misconduct, as defined within the Policy, has an obligation to report that conduct. Reports must be made in accordance with the requirements stipulated below.</p>
+<p>8.1 Whistle blowing Channels</p>
+<p>The channels and procedures for whistle blowing or raising complaints shall depend on whether the allegation, complaint or information is being made or disclosed by a staff member or by a party external to the Company.</p>
+<ul><li><strong>Staff Members</strong> <br />Staff members are expected to whistle blow on transactions, operations and any other activities of the Company that involve fraud, corruption and misconduct, whether internal or external via the dedicated email address whistleblow@tangerine.africa</li>
+<li><strong>External Parties</strong> <br />Parties external to the Company, however, are required to bring allegations and complaints of corruption, fraud and any other misconduct in the execution of any business of the Company or project(s) related to the Company to the knowledge of the Company via the Whistle blowing link on the Company's website or send an email to whistleblow@tangerine.africa</li></ul>
+<p>All communications made via the dedicated email address and the whistle blowing portal will be received by the Head of Internal Audit, Chief Compliance Officer and Managing Director/CEO.</p>
+<p><strong>8.2 Minimum Information Required for a Whistle blowing Report</strong></p>
+<ol><li>1. Name of officer(s) involved</li><li>2. Nature of misconduct</li><li>3. Date of occurrence</li><li>4. Estimated value of loss to the Company (if any)</li><li>5. Specific evidence of occurrence of the misconduct</li></ol>
+<h3>9. Confidential &amp; Anonymous Whistle blowing</h3><p>The Company wishes to assure the safety of whistle blowing, and therefore provides whistle blowers with the option of either confidential whistle blowing or anonymous whistle blowing.</p>
+<p><strong>9.1 Confidential Whistle blowing</strong><br />A whistle blower is encouraged to reveal his or her identity when a report or disclosure is made using any of the channels mentioned above. This approach helps the investigation significantly, as the Whistle blower can be contacted to provide further details on the report, where necessary.</p>
+<p><strong>9.2 Anonymous Whistle blowing</strong><br />However, a whistle blower may choose not to reveal his or her identity upon making a report. With the reporter's anonymity thus assured, the identity of the reporter cannot be ascertained by anyone. Should this approach be chosen, the Whistle blower must ensure that enough information is provided to enable a thorough investigation.</p>
+<p>Whistle blowers should endeavour not to discuss the details of the reported misconduct with other persons, except as part of the investigation to ensure the protection of all parties involved and not to jeopardise the investigation process.</p>
+<h3>10. Whistle blower Protection</h3><p>10.1 An employee making a Whistle blowing Report in good faith may do so without fear of retaliation or occupational prejudice. However, this protection is forfeited if it is found that the report was deliberately falsified or made with malicious intent.</p>
+<p>10.2 Retaliation and occupational prejudice are in themselves misconducts, and when established, must be immediately escalated to the Audit and Compliance Units and would be handled through appropriate disciplinary proceedings as stipulated in the Tangerine Group Staff Manual.</p>
+<h3>11. False Allegations &amp; Complicity</h3><p>11.1 Falsified and malicious allegations made through the Whistle blowing System would be considered misconduct and, when established, would result in disciplinary actions taken against the employee as stipulated within the Tangerine Group Staff Manual.</p>
+<p>11.2 Reporting under this policy does not immunize or shield a whistle blower against action following from his or her intentional misconduct, which includes wilfully participating in the reported misconduct.</p>
+<h3>12. Investigation and Follow-up</h3><p>12.1 The Company is committed to investigating and addressing all cases of reported misconduct. Instances of suspected fraud and corrupt activities shall be investigated in accordance with the Tangerine Group Staff Manual.</p>
+<p>12.2 All other instances of misconduct shall be assessed by the Internal Audit unit and referred to the appropriate Unit for investigation and necessary action. The Internal Audit unit shall follow-up to ensure that the report is properly investigated and adequately addressed.</p>
+<p>12.3 All persons involved in the investigation of a reported suspicion in accordance with this policy will have access to all records, data, and information pertaining to the investigation.</p>
+<p>12.4 Failure of any employee to assist in an investigation; or an intentional obstruction of the progress of an investigation by an employee would be considered a breach of contract and may result in disciplinary actions taken against the employee.</p>
+<p>12.5 Interaction with law enforcement agencies would occur as it is deemed necessary and in accordance with the Tangerine Group Anti-Fraud Policy. As appropriate, relevant regulators will be informed of allegations and the subsequent outcome of investigations.</p>
+<p>12.6 The whistle blower may seek follow-up information about the investigation of a report, escalated using the confidential whistle blowing option, or any consequent action taken by Tangerine Group.</p>
+<h3>13. How to Raise Concerns</h3>
+<p>13.1 As a first step, business-as-usual activities could be taken up with line managers or superiors. This however depends on the seriousness and sensitivity of the issues involved and who is thought to be involved in the malpractice. For example, if it is believed that Management is involved, the Internal Audit Team or Human Resources should be approached.</p>
+<p>13.2 Concerns are better raised in writing but if the whistle blower does not feel comfortable to put his or her concern in writing, the Internal Auditor or any other designated officer as may be applicable may at his/her discretion decide to receive a complaint made by telephone or in person at a meeting. Written concerns should set out the background and history of the concern, giving names, dates and places (if known). In order to ensure the confidentiality of any expression of concern it is suggested that Whistle Blowers send their letter/written note in a sealed envelope addressed to the Internal Auditor and clearly marked as "Strictly Private and Confidential - To be opened by addressee only."</p>
+<h3>14. Escalation</h3>
+<p>Reported misconducts involving an employee shall be escalated to the Head, Internal Audit and the employee's Line Manager</p>
+<p>Reported misconducts involving a Departmental Head shall be escalated to the Head, Internal Audit and the MD/CEO.</p>
+<p>Reported misconducts involving a member of Senior Management, with the exception of the Chief Compliance Officer, the Head Internal Audit or the MD/CEO, shall be escalated to the Head Internal Audit or the MD/CEO,</p>
+<p>Reported misconducts involving the Chief Compliance Officer, the Head Internal Audit or the MD/CEO shall be escalated to the Chairperson, Board Audit and Compliance Committee.</p>
+<h3>15. Assurance</h3>
+<p>The Internal Audit Unit has the responsibility of auditing the processes related to the reporting and investigation of all misconducts reported in accordance with the Whistle blowing Policy.</p>
+<h3>16. Monitoring and Reporting</h3>
+<p>16.1 The Internal Audit Unit shall be responsible for monitoring and reviewing whistle blowing activities.</p>
+<p>16.2 Reports on whistle blowing information shall be provided to Senior Management on a monthly basis and to the Board Audit and Compliance Committee on a quarterly basis.</p>`,
   }
 ];
