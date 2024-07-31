@@ -40,7 +40,7 @@ const Footer = () => {
                   <Image src="/icons/life/instagram.svg" alt="instagram logo" width={16} height={16} />
                 </Link>
                 <Link href="https://x.com/tangerinafrica?s=21&t=tmfoilz0vsLV41wXFMExcQ" target="_blank">
-                  <Image src="/icons/life/x-twitter.svg" alt="twitter logo" width={16} height={16} />
+                  <Image src="/icons/life/twitter.svg" alt="twitter logo" width={16} height={16} />
                 </Link>
               </div>
               <p className="regular-24 text-green-950 mt-4">Still Have Questions?</p>
