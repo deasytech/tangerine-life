@@ -13,6 +13,7 @@ const Footer = () => {
     "/get-quote",
     "/make-claim",
     "/buy-policy",
+    "/renew-policy",
     "/get-started",
     "/get-started/corporate",
   ];

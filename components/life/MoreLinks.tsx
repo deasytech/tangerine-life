@@ -11,7 +11,7 @@ const MoreLinks = () => {
         <Link href="/make-claim" className="w-full text-green-base hover:bg-green-base hover:text-white rounded-md">
           <div className="w-full py-2 text-center font-bold text-xl">MAKE A CLAIM</div>
         </Link>
-        <Link href="/" className="w-full text-green-base hover:bg-green-base hover:text-white rounded-md">
+        <Link href="/renew-policy" className="w-full text-green-base hover:bg-green-base hover:text-white rounded-md">
           <div className="w-full py-2 text-center font-bold text-xl">RENEW MY POLICY</div>
         </Link>
         <Link href="/get-started" className="w-full text-green-base hover:bg-green-base hover:text-white rounded-md">

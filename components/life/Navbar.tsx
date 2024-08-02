@@ -16,6 +16,7 @@ const Navbar = () => {
     "/get-quote",
     "/make-claim",
     "/buy-policy",
+    "/renew-policy",
     "/get-started",
     "/get-started/corporate",
   ];
