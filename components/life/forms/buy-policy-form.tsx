@@ -116,7 +116,7 @@ export function BuyPolicyForm() {
         </div>
         <FormField
           control={form.control}
-          name="fullName"
+          name="product"
           render={({ field }) => (
             <FormItem className="space-y-1.5 w-full">
               <FormLabel>Select Plan</FormLabel>
