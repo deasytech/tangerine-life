@@ -695,7 +695,7 @@ export const DIRECTORS = [
   {
     image: "/images/team/mbuya.png",
     name: "Anele Mbuya",
-    position: "Executive Director, Acting Managing Director",
+    position: "Acting Managing Director",
   },
   {
     image: "/images/team/bakare.png",
@@ -745,11 +745,11 @@ export const MANAGEMENT = [
     name: "Jadesola Olorunrinu",
     position: "Chief Technical Officer",
   },
-  {
-    image: "/images/team/yusuf.png",
-    name: "Kabeerah Yusuf",
-    position: "Chief Risk Officer",
-  },
+  // {
+  //   image: "/images/team/yusuf.png",
+  //   name: "Kabeerah Yusuf",
+  //   position: "Chief Risk Officer",
+  // },
   {
     image: "/images/team/olutimehin.png",
     name: "Oluwole Olutimehin",
@@ -988,8 +988,8 @@ We take appropriate measures to ensure that your Personal Data is only processed
 <p>An individual who observes, or becomes aware of a reportable misconduct, as defined within the Policy, has an obligation to report that conduct. Reports must be made in accordance with the requirements stipulated below.</p>
 <p>8.1 Whistle blowing Channels</p>
 <p>The channels and procedures for whistle blowing or raising complaints shall depend on whether the allegation, complaint or information is being made or disclosed by a staff member or by a party external to the Company.</p>
-<ul><li><strong>Staff Members</strong> <br />Staff members are expected to whistle blow on transactions, operations and any other activities of the Company that involve fraud, corruption and misconduct, whether internal or external via the dedicated email address TangerineAfrica.Whistleblow@oalpconsulting.com</li>
-<li><strong>External Parties</strong> <br />Parties external to the Company, however, are required to bring allegations and complaints of corruption, fraud and any other misconduct in the execution of any business of the Company or project(s) related to the Company to the knowledge of the Company via the Whistle blowing link on the Company's website or send an email to TangerineAfrica.Whistleblow@oalpconsulting.com</li></ul>
+<ul><li><strong>Staff Members</strong> <br />Staff members are expected to whistle blow on transactions, operations and any other activities of the Company that involve fraud, corruption and misconduct, whether internal or external via the dedicated email address <a href="mailto:TangerineAfrica.Whistleblow@oalpconsulting.com" className="text-green-500">TangerineAfrica.Whistleblow@oalpconsulting.com</a></li>
+<li><strong>External Parties</strong> <br />Parties external to the Company, however, are required to bring allegations and complaints of corruption, fraud and any other misconduct in the execution of any business of the Company or project(s) related to the Company to the knowledge of the Company via the Whistle blowing link on the Company's website or send an email to <a href="mailto:TangerineAfrica.Whistleblow@oalpconsulting.com">TangerineAfrica.Whistleblow@oalpconsulting.com</a></li></ul>
 <p>All communications made via the dedicated email address and the whistle blowing portal will be received by the Head of Internal Audit, Chief Compliance Officer and Managing Director/CEO.</p>
 <p><strong>8.2 Minimum Information Required for a Whistle blowing Report</strong></p>
 <ol><li>1. Name of officer(s) involved</li><li>2. Nature of misconduct</li><li>3. Date of occurrence</li><li>4. Estimated value of loss to the Company (if any)</li><li>5. Specific evidence of occurrence of the misconduct</li></ol>
