@@ -16,7 +16,7 @@ const TangLifePage = () => {
         }}>
           <div className="px-10 md:ml-32 h-full flex flex-col justify-center items-start w-full md:w-[40%]">
             <h1 className="bold-32 lg:bold-56 items-center mb-3 text-white !font-gilroy-black">
-              Our <br />TANG Mission
+              Our <br />TANGERINE Mission
             </h1>
             <p className="text-[28px] !font-gilroy-medium text-white max-w-md">Our mission is to help people live financially secure lives.</p>
           </div>

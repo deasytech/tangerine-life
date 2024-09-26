@@ -16,6 +16,9 @@ body {
   a {
     @apply text-green-500 hover:text-green-900;
   }
+  .paragraph p {
+    @apply py-3;
+  }
   .btn_white {
     @apply bg-white px-8 py-3 text-blue-950;
   }

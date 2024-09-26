@@ -755,11 +755,11 @@ export const MANAGEMENT = [
     name: "Oluwole Olutimehin",
     position: "Senior Portfolio Manager",
   },
-  {
-    image: "/images/team/ugoji.png",
-    name: "Okechukwu Ugoji",
-    position: "Strategy Executive",
-  },
+  // {
+  //   image: "/images/team/ugoji.png",
+  //   name: "Okechukwu Ugoji",
+  //   position: "Strategy Executive",
+  // },
   {
     image: "/images/team/ojeniyi.png",
     name: "Luciana Ojeniyi",
