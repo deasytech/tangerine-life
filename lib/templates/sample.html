@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotation Email</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        background-color: #f5f7fa;
+      }
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+      img {
+        border: 0;
+      }
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        background-color: #f5f7fa;
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      .main {
+        background-color: #ffffff;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+        font-family: sans-serif;
+        color: #46586b;
+      }
+      .title {
+        color: #222d38;
+        font-size: 28px;
+        font-weight: 600;
+      }
+      .paragraph {
+        padding: 0 24px 12px;
+      }
+      .paragraph p {
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 400;
+      }
+      .btn {
+        background-color: #ff9100;
+        color: #ffffff;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 9999px;
+        text-decoration: none;
+      }
+      .footer {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 400px;
+        border-spacing: 0;
+        font-family: sans-serif;
+        color: #46586b;
+      }
+      .footer p {
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <center class="wrapper">
+      <table class="main">
+        <tr>
+          <td style="padding: 24px 0 12px 24px">
+            <img
+              src="https://tafrica-drab.vercel.app/images/email-logo.svg"
+              alt="logo"
+              width="136"
+              height="44"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 0 0 12px 24px">
+            <h1 class="title">Insurance Quote Receipt</h1>
+          </td>
+        </tr>
+        <tr>
+          <td class="paragraph">
+            <p>Hi {{ names }},</p>
+            <p>
+              Thank you for your interest in our insurance products Our agent
+              just started the onboarding process of your new insurance policy
+              with quote number “quote id”. Please find attached the quotation
+              for your {{ planName }}. Kindly click on the button to make
+              payment.
+            </p>
+            <p>
+              Thank You,<br />
+              Tangerine Africa.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center; padding-bottom: 64px">
+            <a href="{{paymentUrl}}" class="btn"> Make Payment </a>
+          </td>
+        </tr>
+      </table>
+      <table class="footer">
+        <tr>
+          <td>
+            <p>
+              {{ planName }} at the touch of a button! Download our app for:
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/" style="margin-right: 12px">
+              <image
+                src="https://tafrica-drab.vercel.app/images/app-store.svg"
+                alt="App Store"
+                width="124"
+                height="32"
+              />
+            </a>
+            <a href="/">
+              <image
+                src="https://tafrica-drab.vercel.app/images/google-play-badge.svg"
+                alt="Google Play"
+                width="107"
+                height="32"
+              />
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Questions or concerns? Get in touch with us at
+              <a href="mailto:hello@tangerinelife.com" style="color: #ff9100"
+                >hello@tangerinelife.com</a
+              >
+              or
+              <a href="tel:+2342016309500" style="color: #ff9100"
+                >+234 (0)201 630 9500</a
+              >.
+            </p>
+            <p>
+              Never miss a beat! Follow us on
+              <a href="https://twitter.com/tangerine" style="color: #ff9100"
+                >Twitter</a
+              >,
+              <a href="https://facebook.com/tangerine" style="color: #ff9100"
+                >Facebook</a
+              >
+              and
+              <a href="https://instagram.com/tangerine" style="color: #ff9100"
+                >Instagram</a
+              >.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>

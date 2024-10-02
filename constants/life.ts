@@ -14,7 +14,7 @@ export const NAV_LINKS = [
       { href: "/credit-life-insurance", key: "credit-life-insurance", label: "Credit Life Insurance" },
     ]
   },
-  { href: "/investor", key: "investor", label: "Investor" },
+  { href: "/investors", key: "investors", label: "Investors" },
   { href: "/retail-plans", key: "retail-plans", label: "Retail Plans" },
   { href: "/contact", key: "contact", label: "Contact" },
   { href: "/blog", key: "blog", label: "Blog" },

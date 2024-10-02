@@ -16,7 +16,8 @@ import {
 import { toast } from "@/components/ui/use-toast"
 import { Input } from "@/components/ui/input"
 import { Checkbox } from "@/components/ui/checkbox"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Loader2 } from "lucide-react"
+import { useState } from "react"
 
 const productList = [
   {
@@ -39,22 +40,66 @@ const FormSchema = z.object({
 })
 
 export function GetQuoteForm() {
+  const [ isSubmitting, setIsSubmitting ] = useState(false);
+
+  const defaultValues = {
+    fullName: "",
+    email: "",
+    telephone: "",
+    product: [],
+  };
+
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
-    defaultValues: {
-      product: [],
-    },
+    defaultValues
   })
 
-  function onSubmit(data: z.infer<typeof FormSchema>) {
-    toast({
-      title: "You submitted the following values:",
-      description: (
-        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-          <code className="text-white">{JSON.stringify(data, null, 2)}</code>
-        </pre>
-      ),
-    })
+  const onSubmit = async (data: z.infer<typeof FormSchema>) => {
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch("http://localhost:3001/api/get-quote", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to submit the data");
+      }
+
+      const result = await response.json();
+      console.log("Response from server:", result);
+
+      toast({
+        title: "Data submitted successfully",
+        description: (
+          <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
+            <div className="text-white">
+              {Object.entries(data).map(([ key, value ]) => (
+                <div key={key} className="flex justify-between mb-2">
+                  <span className="font-semibold">{key}:</span>
+                  <span>{value}</span>
+                </div>
+              ))}
+            </div>
+          </pre>
+        ),
+      });
+
+      form.reset(defaultValues);
+    } catch (error) {
+      console.error("Error submitting data:", error);
+      toast({
+        title: "Error",
+        description: "There was an issue submitting the form",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
   return (
@@ -159,7 +204,10 @@ export function GetQuoteForm() {
             </FormItem>
           )}
         />
-        <Button variant="darkgreen" type="submit" size="lg" className="gap-2">Submit <ArrowRight size={16} /> </Button>
+        <Button variant="darkgreen" type="submit" size="lg" className="gap-2" disabled={isSubmitting}>
+          {isSubmitting ? <Loader2 className="animate-spin" size={16} /> : 'Submit'}
+          {!isSubmitting && <ArrowRight size={16} />}
+        </Button>
       </form>
     </Form>
   )
