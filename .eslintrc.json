@@ -15,7 +15,7 @@
         "unnamedComponents": "arrow-function"
       }
     ],
-    "max-len": [2, 250],
+    // "max-len": [2, 250],
     "no-multiple-empty-lines": [
       "error",
       {
