@@ -55,25 +55,25 @@ const InvestorsPage = () => {
 
         <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
           <KeyFigures
-            price="8,898,320m"
+            price="8.89B"
             linkHref="/"
             image="/icons/lighting-bolt.svg"
             text="Gross written premium"
           />
           <KeyFigures
-            price="2,495,255m"
+            price="2.49B"
             linkHref="/"
             image="/icons/lighting-bolt.svg"
             text="Profit before tax"
           />
           <KeyFigures
-            price="6,189,324m"
+            price="6.18B"
             linkHref="/"
             image="/icons/lighting-bolt.svg"
             text="Insurance Service Revenue"
           />
           <KeyFigures
-            price="8,383,015m"
+            price="8.38B"
             linkHref="/"
             image="/icons/lighting-bolt.svg"
             text="Shareholders' funds"
@@ -99,43 +99,6 @@ const InvestorsPage = () => {
               <ArrowRight className="text-green-base" />
             </Link>
           </div>
-        </div>
-      </section>
-
-      <section className="relative max-container padding-container mt-32 flex flex-col gap-20 md:flex-row items-center">
-        <div className="w-full">
-          <h3 className="bold-48 mb-12 text-green-950">Press Releases</h3>
-          {PRESS.map((press, index) => (
-            <Link
-              key={press.slug}
-              href={`press/${press.slug}`}
-              className={`flex flex-col p-4 gap-4 ${index !== PRESS.length - 1 ? 'border-b border-generic-500' : ''
-                }`}
-            >
-              <p className="regular-12">{press.date}</p>
-              <p className="regular-16 text-generic-700">{press.title}</p>
-            </Link>
-          ))}
-          <Link href="/" className="flex items-center gap-2 text-green-base w-fit mt-6">
-            <span>View all releases</span>
-            <ArrowRight size={16} className="text-green-base" />
-          </Link>
-        </div>
-        <div className="w-full px-10 md:px-20 py-16 md:py-28 flex flex-col gap-6" style={{
-          backgroundImage: "url('/images/executive-bg.svg')",
-          borderRadius: '32px',
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}>
-          <p className="bg-green-100 text-green-base uppercase w-fit p-2 px-4 rounded-full">Corporate governance</p>
-          <h3 className="text-green-base bold-48">Group Executives</h3>
-          <p className="regular-16 text-generic-800 max-w-md">The Board of Directors is responsible for setting the Company's strategic directions and ensuring their execution, encompassing environmental, social, and governance considerations.</p>
-          <Link href="/leadership-team">
-            <Button variant="green" size="lg" className="gap-2">
-              Learn more
-              <Image src="/icons/arrow-top-right.svg" alt="Learn more" width={12} height={12} />
-            </Button>
-          </Link>
         </div>
       </section>
 
