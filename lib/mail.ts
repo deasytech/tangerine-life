@@ -35,7 +35,7 @@ export const sendQuotationEmail = async (
 ) => {
   const emailData: EmailData = {
     from: email,
-    to: [ "generalcustomercare@tangerine.africa" ],
+    to: [ "hello@tangerine.africa" ],
     subject: subject,
     html: compileQuotationTemplate(names, data, email, NEXT_PUBLIC_URL!),
   };
