@@ -75,18 +75,8 @@ export function GetQuoteForm() {
 
       toast({
         title: "Data submitted successfully",
-        description: (
-          <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-            <div className="text-white">
-              {Object.entries(data).map(([ key, value ]) => (
-                <div key={key} className="flex justify-between mb-2">
-                  <span className="font-semibold">{key}:</span>
-                  <span>{value}</span>
-                </div>
-              ))}
-            </div>
-          </pre>
-        ),
+        description: "We will contact you with more information in 24 hours.",
+        variant: "default",
       });
 
       form.reset(defaultValues);
@@ -95,7 +85,7 @@ export function GetQuoteForm() {
       toast({
         title: "Error",
         description: "There was an issue submitting the form",
-        variant: "destructive",
+        variant: "success",
       });
     } finally {
       setIsSubmitting(false);
