@@ -58,7 +58,7 @@ export function GetQuoteForm() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch(`${process.env.API_URL}/get-quote`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/get-quote`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
