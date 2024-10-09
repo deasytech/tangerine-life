@@ -36,8 +36,7 @@ export const quotationTemplate = `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 T
             <p>
               Request Product: <strong>{{ data.product }}</strong><br />
               Sender Email: <strong>{{ email }}</strong><br />
-              Sender Country: <strong>{{ data.countries }} {{ data.last_name }}</strong><br />
-              Sender State: <strong>{{ data.states }}</strong><br />
+              Sender Telephone: <strong>{{ data.telephone }}</strong><br />
             </p>
 
             <p>

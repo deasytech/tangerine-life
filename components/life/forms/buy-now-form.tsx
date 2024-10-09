@@ -56,7 +56,7 @@ export function GetQuoteForm() {
 
   const onSubmit = async (data: z.infer<typeof FormSchema>) => {
     setIsSubmitting(true);
-
+    console.log(JSON.stringify(data))
     try {
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/get-quote`, {
         method: "POST",

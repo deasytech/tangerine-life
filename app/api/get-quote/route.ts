@@ -7,12 +7,11 @@ const POST = async (req: Request) => {
     const {
       fullName,
       email,
-      countries,
-      states,
+      telephone,
       product,
     } = body;
 
-    if (!fullName || !email || !countries || !states || !product) {
+    if (!fullName || !email || !telephone || !product) {
       return new NextResponse(
         JSON.stringify({
           message: "All fields are required",
@@ -23,7 +22,7 @@ const POST = async (req: Request) => {
       );
     }
 
-    await sendQuotationEmail(email, fullName, "Quote Request", { countries, states, product });
+    await sendQuotationEmail(email, fullName, "Quote Request", { telephone, product });
 
     return new NextResponse(
       JSON.stringify({
