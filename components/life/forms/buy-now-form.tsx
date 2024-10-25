@@ -19,23 +19,26 @@ import { Checkbox } from "@/components/ui/checkbox"
 import { ArrowRight, Loader2 } from "lucide-react"
 import { useState } from "react"
 
-const productList = [
-  {
-    id: "group-life-assurance",
-    label: "Group Life Assurance",
-  },
-  {
-    id: "credit-life-insurance",
-    label: "Credit Life Insurance",
-  },
+const planList = [
+  { "id": "education-plan", "label": "Education Plan" },
+  { "id": "protection-plan", "label": "Protection Plan" },
+  { "id": "mortgage-protection-plan", "label": "Mortgage protection Plan" },
+  { "id": "family-welfare-plan", "label": "Family Welfare Plan" },
+  { "id": "triple-plan", "label": "Triple Plan" },
+  { "id": "credit-life-plan", "label": "Credit Life Plan" },
+  { "id": "savings-plan", "label": "Savings Plan" },
+  { "id": "savings-plus-plan", "label": "Savings Plus Plan" },
+  { "id": "tang-flex-plan", "label": "Tang Flex Plan" },
+  { "id": "tang-betta-plan", "label": "Tang Betta Plan" },
+  { "id": "tang-vip-plan", "label": "Tang VIP Plan" },
 ] as const
 
 const FormSchema = z.object({
   fullName: z.string().min(1),
   email: z.string().email().min(1),
   telephone: z.string({ message: "Phone number must be at least 11 characters" }).min(11).max(11),
-  product: z.array(z.string()).refine((value) => value.some((item) => item), {
-    message: "You have to select at least one item.",
+  plans: z.array(z.string()).refine((value) => value.some((item) => item), {
+    message: "You have to select at least one plan.",
   }),
 })
 
@@ -46,7 +49,7 @@ export function GetQuoteForm() {
     fullName: "",
     email: "",
     telephone: "",
-    product: [],
+    plans: [],
   };
 
   const form = useForm<z.infer<typeof FormSchema>>({
@@ -152,15 +155,15 @@ export function GetQuoteForm() {
         <p className="my-4 text-sm">Select Cover(s)</p>
         <FormField
           control={form.control}
-          name="product"
+          name="plans"
           render={() => (
             <FormItem>
               <div className="flex flex-wrap gap-4">
-                {productList.map((item) => (
+                {planList.map((item) => (
                   <FormField
                     key={item.id}
                     control={form.control}
-                    name="product"
+                    name="plans"
                     render={({ field }) => {
                       return (
                         <FormItem
