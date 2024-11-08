@@ -696,12 +696,17 @@ export const DIRECTORS = [
   {
     image: "/images/team/mbuya.png",
     name: "Anele Mbuya",
-    position: "Acting Managing Director",
+    position: "Executive Director",
   },
   {
     image: "/images/team/bakare.png",
     name: "Sakeenat Bakare",
     position: "Executive Director",
+  },
+  {
+    image: "/images/team/borisade.png",
+    name: "Kehinde Borisade",
+    position: "Managing Director",
   },
   {
     image: "/images/team/ogiemudia.png",
